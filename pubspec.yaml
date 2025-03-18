@@ -1,0 +1,36 @@
+name: apinext_co
+description: A Flutter application for ApiNext&Co services.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0" # Sesuaikan dengan versi Dart SDK yang Anda gunakan
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.10.0 # Pastikan untuk menggunakan versi terbaru
+  firebase_auth: ^4.16.0 # Pastikan untuk menggunakan versi terbaru
+  shared_preferences: ^2.0.13 # Pastikan untuk menggunakan versi terbaru
+  provider: ^6.0.5 # Untuk state management, jika diperlukan
+  test: ^1.16.0 # Jika Anda melakukan permintaan HTTP
+  # Tambahkan dependensi lain sesuai kebutuhan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.0 # Untuk unit testing dan mocking
+  build_runner: ^2.1.0 # Jika Anda menggunakan code generation
+  json_serializable: ^6.0.1 # Jika Anda menggunakan JSON serialization
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Tambahkan folder atau file gambar yang Anda gunakan
+    - assets/icons/1.png # Tambahkan folder atau file ikon yang Anda gunakan
+
+# Lainnya
